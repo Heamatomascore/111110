@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="login-form">
+        <div class="row">
+            <div class="col-6">
+                <div class="about">
+                    <h1>Login to your Account</h1>
+                    <p>Welcome back! Select method to log in:</p>
+                    <div class="btn">
+                        <a href="#" class="google" style="display: flex;align-items: center;"><img src="../image/logo-google.png" alt="">&nbsp;Google</a>
+                        <a href="#" class="facebook" style="display: flex;align-items: center;"><img src="../image/logo-facebook.png" alt="">&nbsp;Facebook</a>
+                    </div>
+                    <div class="title">
+                        <p>or continue with email</p>
+                    </div>
+                    <form action="">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <input class="input" type="email" name="email" id="email" placeholder="Email">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fa-solid fa-eye-slash"></i>
+                                        <input class="input" type="password" name="password" id="password" placeholder="Password">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="checkbox-flex" >
+                                            <div class="checkbox">
+                                                <input style="margin-right: 8px;" type="checkbox" name="remember" id="remember" value="remember"> Remember me
+                                                <!-- <label for="">Remember me</label> -->
+                                            </div>
+                                            <a href="../page/forgot_password.html">Forgot Password?</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="../page/home_page.html" class="login">log in</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="script">
+                                            <p>Don't have account? <span>Create an account</span></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="../image/Reset password-rafiki.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
